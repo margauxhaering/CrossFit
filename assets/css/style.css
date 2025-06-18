@@ -20,7 +20,7 @@
 @media  screen and (max-width: 500px) {
   #home {
     min-height: 100vh;
-    background-image: url('../images/mobile-bg(1).png');
+    background-image: url('../images/mobile-bg(2).png');
 
   }
   .mobile-hide-text {

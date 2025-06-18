@@ -522,8 +522,8 @@ pre {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin-right: -35px;
+  margin-left: -35px; }
 
 .no-gutters {
   margin-right: 0;
@@ -1492,7 +1492,7 @@ pre {
   .table-responsive {
     display: block;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: visible ;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive.table-bordered {
       border: 0; } }

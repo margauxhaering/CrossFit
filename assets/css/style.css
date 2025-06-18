@@ -1825,6 +1825,26 @@ a {
   }
 
 
+@media screen and (max-width: 500px) {
+
+  .table-responsive tr{
+        font-size: 10px;
+  }
+
+  .table-responsive .op {
+    font-size: 8px;
+  }
+
+  .table-responsive thead th {
+    padding: 4px 4px !important;
+  }
+
+  .table>:not(caption)>*>* {
+    padding: 6px 6px;
+  }
+
+}
+
   .container2 {
     display: flex;
     flex-wrap: wrap;

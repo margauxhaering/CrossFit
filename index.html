@@ -21,42 +21,44 @@
 				<a class="navbar-brand" href="/">
   					<img src="assets/images/logo.png" alt="CMC Logo" height="30">
 			  </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sec-navbar" aria-controls="sec-navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span><i class="ion-navicon"></i></span>
-        </button>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sec-navbar" aria-controls="sec-navbar" aria-expanded="false" aria-label="Toggle navigation">
+				  <span><i class="fas fa-bars"></i></span>
+				</button>
         <div class="collapse navbar-collapse" id="sec-navbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-about">La Salle</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-activites">Activités</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-equipe">Équipe</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-planning">Planning</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-tarifs">Tarifs</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">La Salle</a></li>
+            <li class="nav-item"><a class="nav-link" href="#activites">Activités</a></li>
+            <li class="nav-item"><a class="nav-link" href="#equipe">Équipe</a></li>
+            <li class="nav-item"><a class="nav-link" href="#planning">Planning</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tarifs">Tarifs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- END nav -->
 
-    <section class="cover_v1 text-left cover-bg-black cover-bg-opacity-2" style="background-image: url(assets/images/bgd.png)" id="section-home">
+    <section class="cover_v1 text-left cover-bg-black cover-bg-opacity-2" id="home">
       <div class="container">
         <div class="row align-items-center justify-content-end">
-          <div class="col-md-6  order-md-1">
 
+          <div class="col-md-6  order-md-1">
+<div class="mobile-hide-text">
             <h2 class="heading mb-3">CROSSFIT </br> MONTE-CARLO</h2>
             <div class="sub-heading"><p class="mb-5">Ta nouvelle salle de CrossFit en principauté</p>
-            <p><a href="#section-about" role="button" class="btn smoothscroll outline-light btn-xl font-13 p-4 rounded-0 letter-spacing-2">Découvrir</a></p>
             </div>
 
           </div>
+					<p><a href="#about" role="button" class="btn smoothscroll outline-light btn-xl font-13 p-4 rounded-0 letter-spacing-2" style="color:#fff;">Découvrir</a></p>
+				</div>
         </div>
       </div>
     </section>
     <!-- END section -->
 
 
-    <section class="section section_v1 bg-dark" data-section="about" id="section-about">
+    <section class="section section_v1 bg-dark" data-section="about" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 pr-md-5 pr-sm-0">
@@ -67,7 +69,7 @@
           <div class="col-lg-7">
             <div class="images">
               <img class="img1 img-fluid" src="assets/images/salle2.jpg" alt="">
-              <img class="img2" src="assets/images/salle3.jpg" alt="">
+              <img class="img2 mobile-hide-text" src="assets/images/salle3.jpg" alt="">
             </div>
           </div>
 
@@ -77,8 +79,13 @@
     <!-- END section -->
 
 
-    <section class="section bg-light" data-section="activites" id="section-activites">
+    <section class="section bg-light" data-section="activites" id="activites">
       <div class="container">
+				<div class="row justify-content-md-center text-center mb-5">
+					<div class="col-lg-7">
+						<h2 class=" heading-border-top2 font-weight-normal">ACTIVITES<br><br></h2>
+					</div>
+				</div>
         <div class="row">
           <div class="col-md">
             <div class="media media_v2 d-block text-center mb-3">
@@ -125,7 +132,7 @@
       </div>
     </section>
     <!-- END section -->
-		<section class="section bg-dark bg-image with-overlay" data-section="equipe" id="section-equipe" style="background-color:#000;">
+		<section class="section bg-dark bg-image with-overlay" data-section="equipe" id="equipe" style="background-color:#000;">
 			<div class="container">
 				<div class="row justify-content-md-center text-center mb-5">
 					<div class="col-lg-7">
@@ -137,7 +144,7 @@
 						<div class="card text-center card_v1 mb-4">
 							<img class="card-img-top rounded-circle w-50 mx-auto" src="assets/images/square_img_5.jpg" alt="Card image cap">
 							<div class="card-body">
-								<h4 class="card-title mt-0 mb-2">Jessica Cantore</h4>
+								<h4 class="card-title mt-0 mb-2">Jess</h4>
 								<h6 class="card-subtitle mb-2"><br>Head Coach</h6>
 								<p>CF-L3 TRAINER</p>
 							</div>
@@ -147,7 +154,17 @@
 						<div class="card text-center card_v1 mb-4">
 							<img class="card-img-top rounded-circle w-50 mx-auto" src="assets/images/square_img_5.jpg" alt="Card image cap">
 							<div class="card-body">
-								<h4 class="card-title mt-0 mb-2">Tony</h4>
+								<h4 class="card-title mt-0 mb-2">Sam</h4>
+								<h6 class="card-subtitle mb-2"><br>Founder</h6>
+								<p>blablablalblalbal</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="card text-center card_v1 mb-4">
+							<img class="card-img-top rounded-circle w-50 mx-auto" src="assets/images/square_img_5.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title mt-0 mb-2">Loïc</h4>
 								<h6 class="card-subtitle mb-2"><br>Founder</h6>
 								<p>blablablalblalbal</p>
 							</div>
@@ -157,11 +174,11 @@
 			</div>
 		</section>
 
-    <section class="section2" data-section="planning" id="section-planning">
+    <section class="section2 " data-section="planning" id="planning">
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
-            <h2 class="mt-0  font-weight-normal">PLANNING</h2>
+            <h2 class="mt-0 heading-border-top2 font-weight-normal">PLANNING</h2>
             <p><br>CrossFit Monte-Carlo c'est une semaine de 25 séances CrossFit, 13 séances Hyrox et 15 séances Open Gym pour vous entrainer librement selon vos objectifs <br><br></p>
           </div>
         </div>
@@ -299,11 +316,11 @@
     <!-- END section -->
 
 
-    <section class="section bg-half" data-section="tarifs" id="section-tarifs">
+    <section class="section bg-half" data-section="tarifs" id="tarifs">
       <div class="container">
-        <div class="row justify-content-md-center text-center mb-5">
+        <div class="row justify-content-md-center text-center">
           <div class="col-lg-7">
-            <h2 class="mt-0 font-weight-normal">TARIFS</h2>
+            <h2 class="mt-0 heading-border-top2 font-weight-normal">TARIFS</h2>
             <p>Régulier ou de passage, nous proposons des drop-ins, carnets et abonnements sans engagement<br><br></p>
           </div>
         </div>
@@ -343,13 +360,17 @@
     <!-- END section -->
 
 
-    <section class="section bg-light">
+    <section class="section bg-light" data-section="contact" id="contact">
       <div class="container">
+				<div class="row justify-content-md-center text-center mb-5">
+					<div class="col-lg-7">
+						<h2 class=" heading-border-top2 font-weight-normal">CONTACT<br><br></h2>
+					</div>
+				</div>
         <div class="row">
           <div class="col-lg">
-
             <div class="media media_v1 mb-5">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-jury"></i></div>
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="fa-solid fa-house"></i></div>
               <div class="media-body">
                 <h3 class="mt-0 font-17">Nous trouver</h3>
                 <p class="font-14">adresse Fontvielle</p>
@@ -359,7 +380,7 @@
           </div>
           <div class="col-lg">
             <div class="media media_v1 mb-5">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-law"></i></div>
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="fa-solid fa-address-card"></i></div>
               <div class="media-body">
                 <h3 class="mt-0 font-17">Nous joindre</h3>
                 <p class="font-14">Numero tel - adresse mail</p>
@@ -368,7 +389,7 @@
           </div>
           <div class="col-lg">
             <div class="media media_v1 mb-5">
-              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="flaticon flaticon-courthouse"></i></div>
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"><i class="fa-solid fa-flag"></i></div>
               <div class="media-body">
                 <h3 class="mt-0 font-17">Reserver</h3>
                 <p class="font-14">Sportigo</p>
@@ -382,7 +403,7 @@
 
 
 
-    <footer class="footer bg-light" role="contentinfo" data-section="contact" id="section-contact">
+    <footer class="footer" role="contentinfo">
       <div class="container">
         <div class="row text-center">
           <div class="col">
@@ -393,7 +414,7 @@
         </div>
         <div class="row">
           <div class="col text-center">
-            <p class="font-14">&copy; 2025 <a href="">CrossFit Monte-Carlo</a>. Designed by <a rel="nofollow" href="" target="_blank">margo</a></p>
+            <p class="font-14">&copy; 2025 CrossFit Monte-Carlo. Designed by <a rel="nofollow" href="" target="_blank">margo</a></p>
           </div>
         </div>
       </div>
@@ -402,6 +423,25 @@
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#FDA04F"/></svg></div>
 
+		<script>
+		  function handleScrollOnMobile() {
+		    const button = document.querySelector('#home .btn');
+		    if (window.innerWidth <= 500) {
+		      if (window.scrollY > 10) {
+		        button.classList.add('hidden');
+		      } else {
+		        button.classList.remove('hidden');
+		      }
+		    } else {
+		      button.classList.remove('hidden');
+		    }
+		  }
+
+		  window.addEventListener('scroll', handleScrollOnMobile);
+		  window.addEventListener('resize', handleScrollOnMobile);
+		  window.addEventListener('load', handleScrollOnMobile);
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/slick.min.js"></script>

@@ -1308,7 +1308,7 @@ a {
   @media screen and (max-width: 500px){
     .images .img1{
       max-width: 300px;
-      padding-left: 55px;
+      padding-left: 10px;
     }
   }
   .images .img2 {

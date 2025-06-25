@@ -18,10 +18,10 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark navbar" id="navbar">
       <div class="container">
-				<a class="navbar-brand" href="/">
+				<a class="navbar-brand" href="#home">
   					<img src="assets/images/logo.png" alt="CMC Logo" height="30">
 			  </a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sec-navbar" aria-controls="sec-navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" id="discover-btn" type="button" data-bs-toggle="collapse" data-bs-target="#sec-navbar" aria-controls="sec-navbar" aria-expanded="false" aria-label="Toggle navigation">
 				  <span><i class="fas fa-bars"></i></span>
 				</button>
         <div class="collapse navbar-collapse" id="sec-navbar">
@@ -50,7 +50,7 @@
             </div>
 
           </div>
-					<p><a href="#about" role="button" class="btn smoothscroll outline-light btn-xl font-13 p-4 rounded-0 letter-spacing-2" style="color:#fff;">Découvrir</a></p>
+					<p><a href="#about"  id="discover-btn" role="button" class="btn smoothscroll outline-light btn-xl font-13 p-4 rounded-0 letter-spacing-2" style="color:#fff;">Découvrir</a></p>
 				</div>
         </div>
       </div>
@@ -147,16 +147,6 @@
 								<h4 class="card-title mt-0 mb-2">Jess</h4>
 								<h6 class="card-subtitle mb-2"><br>Head Coach</h6>
 								<p>CF-L3 TRAINER</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md">
-						<div class="card text-center card_v1 mb-4">
-							<img class="card-img-top rounded-circle w-50 mx-auto" src="assets/images/square_img_5.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h4 class="card-title mt-0 mb-2">Sam</h4>
-								<h6 class="card-subtitle mb-2"><br>Founder</h6>
-								<p>blablablalblalbal</p>
 							</div>
 						</div>
 					</div>
@@ -424,6 +414,24 @@
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#FDA04F"/></svg></div>
 
 		<script>
+
+		document.getElementById('discover-btn').addEventListener('click', function (e) {
+		  // Optional: smooth scroll (only if needed)
+		  // document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+
+		  // Close the Bootstrap mobile menu
+		  const navbar = document.querySelector('.navbar-collapse');
+		  if (navbar && navbar.classList.contains('show')) {
+		    const bsCollapse = bootstrap.Collapse.getInstance(navbar);
+		    if (bsCollapse) {
+		      bsCollapse.hide();
+		    } else {
+		      // If no instance, fallback
+		      navbar.classList.remove('show');
+		    }
+		  }
+		});
+
 		  function handleScrollOnMobile() {
 		    const button = document.querySelector('#home .btn');
 		    if (window.innerWidth <= 500) {

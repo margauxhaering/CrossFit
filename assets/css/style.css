@@ -1306,7 +1306,7 @@ a {
     max-width: 400px;
   }
   @media screen and (max-width: 500px){
-    .images .img1{
+    .images .img1 .img2{
       max-width: 100px;
       padding-left: 50px;
       max-height: 200px;

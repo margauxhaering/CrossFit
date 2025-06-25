@@ -1286,6 +1286,7 @@ a {
 
       .section2 {
         padding: 5em 0 0 0;
+        background-color: #fff;
         position: relative;
         display: block; }
         @media (max-width: 991px) {
@@ -1294,7 +1295,7 @@ a {
   .section.bg-half:before {
     top: 65%;
     content: "";
-    background: #040404;
+    background: #fff;
     bottom: 0%;
     width: 100%;
     left: 0;
@@ -1321,8 +1322,8 @@ a {
         @media (max-width: 500px) {
           .images .img1{
             position: relative;
-            padding-left: 55px;
-            max-width: 70%; } }
+            padding-left: 45px;
+            max-width: 90%; } }
   .images.right .img1 {
     position: relative;
     z-index: 2;
@@ -1765,7 +1766,7 @@ a {
   .box {
     width: 160px;
     height: 120px;
-    border: 2px solid white;
+    border: 2px solid black;
     transform: skew(-5deg);
     display: flex;
     flex-direction: column;
@@ -1778,7 +1779,7 @@ a {
   .box1 {
     width: 160px;
     height: 120px;
-    border: 2px solid black;
+    border: 2px solid white;
     transform: skew(-5deg);
     display: flex;
     flex-direction: column;

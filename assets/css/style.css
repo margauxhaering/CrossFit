@@ -1307,9 +1307,9 @@ a {
   }
   @media screen and (max-width: 500px){
     .images .img1{
-      max-width: 300px;
-      padding-left: 10px;
-      aspect-ratio: attr(width) / attr(height); 
+      max-width: 100px;
+      padding-left: 50px;
+      aspect-ratio: attr(width) / attr(height);
       object-fit: cover;
 
     }

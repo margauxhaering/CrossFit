@@ -1323,7 +1323,7 @@ a {
             position: relative;
             left: inherit !important;
             top: inherit !important;
-            max-width: 100%; } }
+            max-width: 50%; } }
   .images.right .img1 {
     position: relative;
     z-index: 2;

@@ -1313,7 +1313,7 @@ a {
     -webkit-box-shadow: -17px 10px 34px -18px rgba(0, 0, 0, 0.5);
     box-shadow: -17px 10px 34px -18px rgba(0, 0, 0, 0.5); }
     @media (max-width: 767px) {
-      .images .img2 .img1{
+      .images .img2{
         position: relative;
         left: inherit !important;
         top: inherit !important;
@@ -1322,7 +1322,7 @@ a {
           .images .img1{
             position: relative;
             padding-left: 55px;
-            max-width: 60%; } }
+            max-width: 70%; } }
   .images.right .img1 {
     position: relative;
     z-index: 2;

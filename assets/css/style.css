@@ -1321,7 +1321,7 @@ a {
         @media (max-width: 500px) {
           .images .img1{
             position: relative;
-            align-items: center;
+            padding-left: 55px;
             max-width: 60%; } }
   .images.right .img1 {
     position: relative;

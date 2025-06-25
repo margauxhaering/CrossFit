@@ -960,7 +960,8 @@ body {
   font-family: "Montserrat", Arial, sans-serif; }
 
 input, textarea, p {
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: justify;}
 
 ::-moz-selection {
   background: #000;

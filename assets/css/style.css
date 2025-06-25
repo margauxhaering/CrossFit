@@ -1318,6 +1318,12 @@ a {
         left: inherit !important;
         top: inherit !important;
         max-width: 100%; } }
+        @media (max-width: 767px) {
+          .images .img1{
+            position: relative;
+            left: inherit !important;
+            top: inherit !important;
+            max-width: 200%; } }
   .images.right .img1 {
     position: relative;
     z-index: 2;

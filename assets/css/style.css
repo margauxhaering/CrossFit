@@ -1309,8 +1309,7 @@ a {
     .images .img1{
       max-width: 100px;
       padding-left: 50px;
-      aspect-ratio: attr(width) / attr(height);
-      object-fit: cover;
+      max-height: 200px;
 
     }
   }

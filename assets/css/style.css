@@ -1787,11 +1787,11 @@ a {
     align-items: center;
     font-weight: bold;
     background-color: transparent;
-    color: #fff;
+
   }
 
   .box span {
-    transform: skew(5deg); 
+    transform: skew(5deg);
     display: block;
   }
 
